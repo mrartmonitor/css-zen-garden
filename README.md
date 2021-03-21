@@ -1,1 +1,1 @@
-# vk23-css-zen-garden
+# css-zen-garden
