@@ -3,6 +3,11 @@ html {
 	font-family: sans-serif;
 }
 
+abbr {
+	color: red;
+	text-decoration: dotted;
+}
+
 /* only for high density devices with a specific maximum width */
 
 @media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
