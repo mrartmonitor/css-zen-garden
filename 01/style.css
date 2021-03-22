@@ -1,3 +1,20 @@
-body {
+html {
+	font-size: 12px;
+	font-family: sans-serif;
 	color: red;
+}
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+}
+
+/* only for screen */
+
+@media screen {
+}
+
+/* only for print */
+
+@media print {
 }
