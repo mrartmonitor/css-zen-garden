@@ -1,0 +1,95 @@
+html {
+  background-color: #f0f0f0;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+  color: blue;
+  text-align: left;
+  
+  cursor: url(https://cdn.glitch.com/795c5912-18e2-4faa-b2c5-2e1b339d1bb7%2Fsmiley_1.png?v=1616597079555), auto;
+}
+
+
+body {
+	background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjI1IiBoZWlnaHQ9IjI1IiB2aWV3Qm94PSIwIDAgNDAsNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSgxMzUpICI+PHJlY3QgaWQ9InBhdHRlcm4tYmFja2dyb3VuZCIgd2lkdGg9IjQwMCUiIGhlaWdodD0iNDAwJSIgZmlsbD0icmdiYSgyNDAsIDI0MCwgMjQwLDEpIj48L3JlY3Q+IDxjaXJjbGUgZmlsbD0icmdiYSgyMjksIDYyLCA2MiwxKSIgY3g9IjQwIiBjeT0iMjAiIHI9IjAuMjUiPjwvY2lyY2xlPjxjaXJjbGUgZmlsbD0icmdiYSgyNDUsIDEwMSwgMTAxLDEpIiBjeD0iMCIgY3k9IjIwIiByPSIxLjUiPjwvY2lyY2xlPjxjaXJjbGUgZmlsbD0icmdiYSgyNDUsIDEwMSwgMTAxLDEpIiBjeD0iNDAiIGN5PSIyMCIgcj0iMS41Ij48L2NpcmNsZT48L3BhdHRlcm4+ICA8L2RlZnM+IDxyZWN0IGZpbGw9InVybCgjcGF0dGVybikiIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiPjwvcmVjdD48L3N2Zz4=");
+}
+/* https://doodad.dev/pattern-generator/ */
+
+
+
+header {padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 0.5vw;
+  animation-name: snurr;
+  animation-duration: 5s;
+  animation-iteration-count: 300;  
+
+}
+
+main {padding-left: 10vw;
+  padding-right: 10vw;
+  animation-name: snurr;
+  animation-duration: 5s;
+  animation-iteration-count: 300;
+}
+
+@keyframes snurr{
+  0% {padding-left: 3;}
+  0% {padding-right: 200;}
+  50% {padding-left: 120}
+  50% {padding-right: 3}
+  100% {padding-left: 3;}
+  100% {padding-right: 200;}
+
+h1 {font-size: 16px;}
+
+h2 {font-size: 16px;}
+
+h3 {font-size: 14px;}
+    
+
+footer {padding-left: 10vw;
+  padding-right: 10vw;}
+
+aside {padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;}
+  
+  ol {padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;}
+
+abbr {
+	text-decoration: dotted;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+  
+
+/* get the third element of type "p" */
+
+p:nth-of-type(3) {
+	color: blue;
+}
+
+/* get every 4th element of type "p" */
+
+p:nth-of-type(4n) {
+	color: blue;
+}
+  
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+}
+
+/* only for screen */
+
+@media screen {
+}
+
+/* only for print */
+
+@media print {
+}
+  
