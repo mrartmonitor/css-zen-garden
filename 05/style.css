@@ -1,0 +1,486 @@
+html {
+  
+
+  
+  cursor: url(https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2Fapple%20small.png?v=1616594407316), auto;
+
+  font-size: 12px;
+  font-family: sans-serif;
+   background: rgb(2, 180, 65);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 180, 65, 1) 0%,
+    rgba(255, 255, 255, 1) 37%,
+    rgba(189, 226, 251, 1) 100%
+  );
+}
+
+abbr {
+  text-decoration: dotted;
+}
+
+body {
+  
+
+  
+   
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   background-image: url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2Fapple.png?v=1616514028083");
+  background-position: center;
+  background-size: 40%;
+  
+margin: 150;
+  padding: 150 ;
+  font-family: "helvetica";
+  font-size: 15pt;
+}
+
+
+
+  
+
+
+/*-------------------------------- HEADLINES -------------------------*/
+
+
+h1 {
+  
+  
+
+  
+  font-family: "Ortica";
+  font-size: 80pt;
+  
+  text-align: center;
+text-shadow: 3px 3px blue;
+  color: pink; 
+ animation: wavy 2s ease-in-out infinite;
+  transform: translateY(-2em);
+  animation-delay: calc(0.05s * var(--char-index));
+
+
+filter: blur(100px);
+
+}
+
+h1:hover{
+  
+ filter: blur(0px); 
+}
+ 
+
+
+h2 {
+  font-family: "Ortica";
+  font-size: 25pt;
+  
+  text-align: right;
+  margin: 50;
+  paddin: 0;
+  
+  color: yellow;
+  text-shadow: 3px 3px blue;
+  
+  
+   
+}
+
+
+
+
+
+h3{
+  margin: 50;
+  font-family: "Anselm Ten Normal";
+  font-size: 70pt;
+  
+  color: pink;
+  text-shadow: 3px 3px blue;
+  text-align: center;
+   animation: float 6s ease-in-out infinite;
+  
+  
+  
+  
+}
+
+
+
+
+/*-------------------------------- TEXT -------------------------*/
+
+
+p:nth-of-type(1) {
+  
+	font-family: 'Anselm Ten Normal';
+  font-size: 40pt;
+  color: yellow;
+  text-shadow: 3px 3px blue;
+  text-align: center;
+  
+  
+}
+
+
+
+
+p:nth-of-type(2n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+
+}
+
+p:nth-of-type(3n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+
+}
+
+/* get every 4th element of type "p" */
+
+p:nth-of-type(4n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(5n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(6n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(7n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(8n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(9n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(10n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(11n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(12n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(13n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(14n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+
+p:nth-of-type(15n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+p:nth-of-type(17n) {
+color: yellow;
+background: rgba(0, 0, 0, 0.5);
+}
+
+/*--------------------- QUOTES, LISTS, ETC.-----------------------*/
+
+blockquote{
+  margin: 50;
+  paddin: 0;
+  text-align: center;
+  
+  font-family: 'Anselm Ten Normal';
+  font-size: 40pt;
+  color: pink;
+  text-shadow: 3px 3px blue;
+  
+  animation: float 4s ease-in-out infinite;
+  
+}
+
+ul{
+  margin: 50;
+  color: yellow;
+background: rgba(0, 0, 0, 0.5);
+  text-align:center;
+  
+}
+
+
+
+ol {
+  
+  text-align: left;
+  font-family: "Ortica";
+  font-size: 40pt;
+  color: yellow;
+  text-align: center;
+
+  
+ 
+  
+}
+
+
+
+
+/*----------------FONTS------------------------*/
+
+
+
+@font-face {
+  font-family: "Ortica";
+  src: url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FOrtica-Light.eot?v=1616508316242");
+  src: url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FOrtica-Light.eot?v=1616508316242")
+      format("embedded-opentype"),
+    url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FOrtica-Light.woff2?v=1616508316771")
+      format("woff2"),
+    url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FOrtica-Light.woff?v=1616508316368")
+      format("woff"),
+    url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FOrtica-Light.ttf?v=1616508420002")
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anselm Ten Normal";
+  src: url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FAnselmTen-Normal.eot?v=1616510470512");
+  src: url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FAnselmTen-Normal.eot?v=1616510470512?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FAnselmTen-Normal.woff2?v=1616510470541")
+      format("woff2"),
+    url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FOrtica-Light.woff?v=1616508316368")
+      format("woff"),
+    url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2FAnselmTen-Normal.ttf?v=1616510470667")
+      format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/*----------------ANIMATIONS------------------------*/
+
+
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-10px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+
+@keyframes wavy {
+  0%, 100% {
+    transform: translateY(-0.1em) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(0.1em) rotate(5deg);
+  }
+}
+
+
+@keyframes scroll left{
+  
+  
+  0%{
+    
+    transform: translateX(100%);
+    
+  }
+  
+  
+  100%{
+    
+    transform: translateX(-100%);
+    
+    
+  }
+  
+}
+
+
+@keyframes bp {
+  from {
+    background-position:  0 0;
+  }
+  
+  to {
+    background-position:  0 100%;
+  }
+}
+
+
+
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+  
+    
+  }
+  
+  
+}
+
+/* only for screen */
+
+@media screen {
+  
+  
+}
+
+/* only for print */
+
+@media print {
+}
+
+
+
+/*mobile device*/
+@media all and (max-width: 600px){
+  
+  body {
+  
+
+  
+   
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   background-image: url("https://cdn.glitch.com/edb9576c-9c9d-490d-82f3-8c3ce72c8cff%2Fapple.png?v=1616514028083");
+  
+  background-size: 40%;
+  
+margin: 5;
+  padding: 5 ;
+  font-family: "helvetica";
+  font-size: 15pt;
+}
+  
+  
+  
+  h1 {
+  font-size: 40pt;
+  text-shadow: 1px 1px blue;
+  filter: blur(0px);
+}
+
+  
+  h2 {
+  font-size: 15pt;
+  margin: 5;
+  paddin: 0;  
+  text-shadow: 1px 1px blue;
+
+}
+  
+  
+  
+h3{
+  margin: 5;
+  font-size: 20pt;
+  color: pink;
+  text-shadow: 1px 1px blue;
+}
+  
+  
+  
+  p:nth-of-type(1) {
+  
+	font-family: 'Anselm Ten Normal';
+  font-size: 20pt;
+  color: yellow;
+  text-shadow: 1px 1px blue;
+  text-align: center;
+  
+  
+}
+  
+  
+  
+  
+  blockquote{
+  margin: 50;
+  paddin: 0;
+  text-align: center;
+  
+  font-family: 'Anselm Ten Normal';
+  font-size: 20pt;
+  color: pink;
+  text-shadow: 1px 1px blue;
+  
+  animation: float 4s ease-in-out infinite;
+  
+}
+
+  ul{
+  margin: 5;
+  color: yellow;
+background: rgba(0, 0, 0, 0.5);
+  text-align:center;
+  
+}
+
+
+
+ol {
+  
+  text-align: left;
+  font-family: "Ortica";
+  font-size: 20pt;
+  color: yellow;
+  text-align: center;
+
+  
+  
+}
